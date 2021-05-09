@@ -12,7 +12,7 @@ const db = mysql.createConnection(
         password: accDetails.pWord,
         database: 'company'
     },
-    console.log('Connected to the election database.')
+    console.log('Connected to the company database.')
 );
 
 module.exports = db;
