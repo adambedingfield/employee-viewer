@@ -3,9 +3,12 @@ const accDetails = require('../account');
 
 
 // Connect to database
+// SQL username and password stored
+// in .gitignored account.js sheet
 const db = mysql.createConnection(
     {
         host: 'localhost',
+        // SQL port
         port: 3306,
         // your MySQL username
         user: accDetails.username,
