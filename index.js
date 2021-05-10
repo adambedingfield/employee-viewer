@@ -6,4 +6,4 @@ const mainPrompt = require('./lib/prompt');
 db.connect(function(err) {
     if (err) throw err
     mainPrompt();
-}); 
+});
