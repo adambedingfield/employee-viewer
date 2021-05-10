@@ -1,9 +1,9 @@
 const db = require('./db/connection');
-const inquirer = require('inquirer');
-const cTable = require('console.table');
+const mainPrompt = require('./lib/prompt');
 
 // Connect to Company Database
+// Begin Prompt
 db.connect(function(err) {
     if (err) throw err
     mainPrompt();
-});
+}); 
