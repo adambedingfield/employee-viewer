@@ -3,7 +3,8 @@ VALUES
 ('Sales'),
 ('Engineering'),
 ('Legal'),
-('HR');
+('HR'),
+('Management');
 
 INSERT INTO role (title, salary, department_id)
 VALUES
@@ -13,7 +14,8 @@ VALUES
 ('Back End Dev', 90000, 2),
 ('Lawyer', 100000, 3),
 ('Recruiter', 65000, 4),
-('Trainer', 75000, 4);
+('Trainer', 75000, 4),
+('Manager', 95000, 5);
 
 INSERT INTO manager (first_name, last_name)
 VALUES
@@ -32,4 +34,7 @@ VALUES
 ('Clay', 'Yveddson', 4, 2),
 ('Tina', 'Sanday', 5, NULL),
 ('Robert', 'House', 6, 3),
-('Marty', 'Robbins', 7, 2);
+('Marty', 'Robbins', 7, 2),
+('Erica', 'Kee', 8, NULL),
+('Xavier', 'Lightningbolt', 8, NULL),
+('Dude', 'Chaac', 8, NULL);
