@@ -1,6 +1,6 @@
 # Company Viewer<br>
 ## Description<br>
-Company viewer is a terminal based application that helps you view and manage your company employees, departments, and roles. This application utilizes SQL to help you store and movde data inside a database. By typing node index you are prompted with a list detailing whether you would like to view departments, roles, or employees and an option to add new items to each of those.<br>
+Company viewer is a terminal based application that helps you view and manage your company employees, departments, and roles. This application utilizes SQL to help you store and movde data inside a database. By typing node index you are prompted with a list detailing whether you would like to view departments, roles, employees, or managers and an option to add new items to each of those.<br>
 ## Table of Contents<br>
 * [Home](#home)<br>
 * [Features](#webpage)<br>
@@ -20,9 +20,13 @@ Viewing roles will bring up a role table displaying title, salary, and departmen
 Viewing employees will bring up an employee table displaying first and last name, title, salary, department, and manager.<br>
 ![home](./img/employees.png)<br>
 
+Viewing managers will bring up a manager table displaying their first and last name.
+![home](./img/manager.png)<br>
+
 ## Features<br>
 The app also includes the ability to add to each category. <br>
 Adding an employee will prompt you a series of questions, then create an employee on the employee table.<br>
+They will also be asked if they are a manager selecting yes will add them to the manager table aswell.<br>
 ![home](./img/addemployee.png)<br>
 
 Adding a role will prompt you a series of questions, then create a role on the role table.
